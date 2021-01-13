@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grundlæggende Animation - Portfolio</title>
+    <link rel="stylesheet" href="styles/tema5.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel='shortcut icon' type='image/x-icon' href="billeder/favicon_io/favicon-32x32.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="robots" content="noindex">
+</head>
+
+<body>
+    <header>
+        <div class="topnav">
+            <a class="active" href="hjem.html">LN</a>
+            <div id="myLinks" class="topnav-right">
+                <a href="hjem.html">HJEM</a>
+                <a href="portfolio.html">PORTFOLIO</a>
+                <a href="CV.html">CV</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+    <section id="overskrift">
+        <div class="sectionwrapper">
+            <div class="header">
+                <h1>Fiskespillet</h1>
+            </div>
+        </div>
+    </section>
+    <section id="beskrivelse">
+        <div class="sectionwrapper">
+            <div class="top">
+                <div class="col_left">
+                    <h3>Jeg lærte</h3>
+                    <p>I dette tema lærte jeg blandt andet om figurdesign, javakode, statemachine-diagram og aktivitetsdiagram. De to sidste har jeg benyttet for at bedre fremvise og forstå, hvordan spillet skal være bygget op. Statemachine-diagrammet er specifikt brugt for at få overblik over og tilhjælpe kode delen. Den agerer hele skelettet i kodningen. Aktivtetsdiagrammet forklarer spillets game mechanics, altså hvordan spillet hænger sammen.</p>
+                </div>
+                <div class="col_right">
+                    <img class="billede1" src="billeder/FiskespilStartskaerm_650x425.png" alt="Startskærm">
+                </div>
+            </div>
+            <div class="top">
+                <div class="col_left">
+                    <h3>Projektet</h3>
+                    <p>Mit spil, som blev udarbejdet som hovedprojekt i dette forløb, bruger storytelling da den omhandler en fisker der er blevet tyk til at dykke efter fiskene selv. Han har derfor brug for en hjælper, som er spilleren. Han skal nemlig bruge 30 for at blive mæt. Man skal trykke på de gode fisk for at fange dem og få point, men man skal undgå de dårlige (de smager skidt og så mister man et ud af tre liv). Man skal nå de 30 inden ilten løber ud. Tegnestilen skal minde om noget et barn har tegnet, men skal stadig være genkendelig. Derfor er der benyttet tegneserier som inspiration sammen med brutalisme for at opnå dette look. Dette kan ses på UI elementerne og figurene som er asymmetriske og uden høj detaljegrad. Derudover er der gjort stor lys- og farveforskel på vinder- og taber-skærmen, så det er tydeligt hvilken der er gældende. Spillet kan finde på linket her: <a href="http://lucasnyhjem.dk/kea/04_animation/Spil/index.html">Fiskespil</a>  </p>
+                </div>
+                <div class="col_right">
+                    <img class="billede2" src="billeder/FiskespilPrototype_850x425.png" alt="Papir prototype">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="billeder">
+        <div class="sectionwrapper">
+            <div class="col">
+                <div class="col_left"><img src="billeder/FiskespilUI_850x425.png" alt="UI elementer"></div>
+                <div class="col_right"><img src="billeder/FiskespilMoodboard_850x425.png" alt="Moodboard"></div>
+            </div>
+            <div class="col">
+                <div class="col_left"><img src="billeder/statemachinediagram_fiskespil.png" alt="Statemachine diagram"></div>
+                <div class="col_right"><img src="billeder/FiskespilAktivitetsdiagram_400x400.png" alt="Aktivitetsdiagram"></div>
+            </div>
+        </div>
+    </section>
+    <div class="blaa"></div>
+    <footer id="footer">
+        <div class="footer"><p>Lucas Nyhjem</p></div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
